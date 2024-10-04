@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header h1 {
+    color: white;
+    margin-left: 10px;
+}
+main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background-color: rgb(241, 237, 237);
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.name {
+    margin-left: 5px;
+}
+
+.button-mark {
+    width: 15px;
+    height: 15px;
+}
+
+fieldset label {
+    padding: 5px;
+}
+fieldset input {
+    margin: 5px ;
+}
+
+fieldset {
+    margin: 5px;
+    padding: 5px;
+}
+
+.options {
+    font-size: 15px;
+    display: flex;
+}
+
+#interesses {
+    font-size: 20px;
+}
+
+#comentarios {
+    height: 50px;
+}
+
+#submit {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}

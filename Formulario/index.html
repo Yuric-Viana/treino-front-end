@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Formulário de Cadastro</h1>
+    </header>
+    <main>
+        <form>
+            <div>
+                <label for="nome">Nome:</label>
+                <input class="name" type="text">
+            </div>
+            <div>
+                <label for="e-mail">E-mail:</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="senha">Senha:</label>
+                <input type="password">
+            </div>
+            <div>
+                <label for="Sexo">Sexo:</label>
+                <select name="sexo" class="custom-select">
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="outro">Outro</option>
+                </select>
+            </div>
+            <fieldset class="options">
+                <legend id="interesses">Interesses:</legend>
+                <div>
+                    <input class="button-mark" type="checkbox" id="esporte">
+                    <label for="sport">Esporte</label>
+                </div>
+                <div>
+                    <input class="button-mark" type="checkbox" id="tecnologia">
+                    <label for="tecnology">Tecnologia</label>
+                </div>
+                <div>
+                    <input class="button-mark" type="checkbox" id="viagem">
+                    <label for="viagem">Viagem</label>
+                </div>
+            </fieldset>
+            </div>
+            <div>
+                <p>Comentários:</p>
+                <input id="comentarios" type="text">
+            </div>
+            <button id="submit">Enviar</button>
+        </form>
+    </main>
+    
+</body>
+</html>
